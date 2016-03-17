@@ -36,7 +36,7 @@ extension DetailViewController: MCMHeaderAnimatedDelegate {
     }
     
     func headerCopy(subview: UIView) -> UIView {
-        var headerN = UIView()
+        let headerN = UIView()
         headerN.backgroundColor = self.element.objectForKey("color") as! UIColor
         return headerN
     }
